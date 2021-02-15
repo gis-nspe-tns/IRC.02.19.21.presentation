@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Space, Knowledge and Power: Spatial Analysis, Data Collection and Participatory Mapping for Impact</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Stephen Metts | Part-Time Associate Professor" />
+    <meta name="date" content="2021-02-23" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Space, Knowledge and Power: Spatial Analysis, Data Collection and Participatory Mapping for Impact
+## <br/>An introduction to GIS: contextualizing participatory mapping + vulnerability mapping at global and regional scales
+### Stephen Metts | Part-Time Associate Professor
+### <a href="https://www.newschool.edu/international-affairs/">Graduate School of International Affairs, Management and Urban Policy The New School, NYC</a>
+### 02/23/21
+
+---
+
+background-image: url(img/1a.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | Geographic Information Systems Definition
+###Geographic
+&gt; i.e. the *geometry* component of data
+
+
+---
+background-image: url(img/1b.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | Geographic Information Systems Definition
+###Information
+&gt; i.e. common, colloquial formats, often *tabular*
+
+
+---
+background-image: url(img/1c.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | Geographic Information Systems Definition
+###System
+&gt; processing *input* data to *output* meaningful results, often presented as cartographic output, i.e. *maps*
+
+---
+background-image: url(img/2.png)
+background-size: cover
+# GIS | Prevalent, Mature, Accessible
+
+**Prevalence**:
+
+- 80% of the world’s data includes some kind of spatial aspect, 80% of data has a location component, 80% of data possesses a geographic reference, 80% of transactional data has a location component.&lt;sup&gt;*&lt;/sup&gt;
+
+**Maturity &amp; accessibility**:
+
+.footnote[[*] [80% of data is geographic](https://www.gislounge.com/80-percent-data-is-geographic/)]
+---
+background-image: url(img/3.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | *Overlay* Principal
+###GIS data inputs are termed *layers*; each layer represents a particular *theme*
+&gt; these layers are *stacked* consistently for spatial analysis in and between layers:
+
+---
+background-image: url(img/4.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | 2 Data Models - *Vector &amp; Raster*
+###Valid GIS data inputs are generally defined by two main models - Vector &amp; Raster
+&gt; The vector model is defined by points, lines and polygons; this model is typically used to *house* demographic data consistent with **human populations**:
+---
+background-image: url(img/5.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | 2 Data Models - *Vector &amp; Raster*
+###Valid GIS data inputs are generally defined by two main models - Vector &amp; Raster
+&gt; The raster model is defined by rows &amp; columns of cells resulting in a grid; this model is often used to *house* continuous data typical of **environmental phenomena**:
+---
+background-image: url(img/6.png)
+background-size: cover
+# Geographic Distribution of Risk
+###World Economic Forum - Global Risks Report 2021&lt;sup&gt;*&lt;/sup&gt;
+&gt; 9 **Risk** categories ranked; all exhibit spatial dimensions.
+
+&gt; **Human Populations** &amp; **environmental phenomena**:
+
+.footnote[[*] [World Economic Forum Risk Report 2021](https://www.zurich.com/-/media/project/zurich/dotcom/industry-knowledge/global-risks/docs/the-global-risks-report-2021-executive-summary.pdf?la=en&amp;rev=34fe8ff3edbb4b9fae6637801cc552d7&amp;hash=98B8DE1FA188A93A7241C160C7EA9EDC)]
+---
+background-image: url(img/7.png)
+background-size: cover
+# Geographic Distribution of Risk
+###*Hothouse Earth* effect&lt;sup&gt;*&lt;/sup&gt;
+&gt; self-reinforcing feedbacks *loops*, intensifying geographic *hotspots*
+
+.footnote[[*] [Hothouse Earth](http://priceofoil.org/2018/08/07/are-we-descending-into-hothouse-earth/)]
+---
+background-image: url(img/8.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | Mapping Approach to Risk
+**Risk** can be defined through a combination of three terms&lt;sup&gt;*&lt;/sup&gt;:
+
+.footnote[[*] [UN SPIDER](https://www.un-spider.org/risks-and-disasters/disaster-risk-management)]
+--
+
+- **Hazard** - often an *envrionmental phenomena*
+
+--
+
+- **Vulnerability** - often a dimension of *human populations*
+
+--
+
+- **Exposure** - the situational concentration of *vulnerability*
+
+---
+background-image: url(img/9.png)
+background-size: cover
+# GIS | Mapping Approach to Risk
+###**Hazards** typically *fit* within raster model well.
+&gt; **Example 1**: Global Drought Hazard Frequency &amp; Distribution&lt;sup&gt;*&lt;/sup&gt;
+
+.footnote[[*] [SEDAC](https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/maps)]
+
+---
+background-image: url(img/10.png)
+background-size: cover
+# GIS | Mapping Approach to Risk
+###**Hazards** typically *fit* within raster model.
+&gt; **Example 2**: Recent NYT + 427 Interactive Climate Change Mapping  &lt;sup&gt;*&lt;/sup&gt;
+
+.footnote[[*] [427 Project](http://427mt.com/wp-content/uploads/2020/12/Measuring-What-Matters-Sovereign-Climate-Risk-427_12.2020.pdf)]
+
+---
+background-image: url(img/11.png)
+background-size: cover
+# GIS | Mapping Approach to Risk
+###**Vulnerabilities &amp; Exposures** typically *fit* within vector model.
+&gt; **Example**:GADM, the Database of Global Administrative Areas&lt;sup&gt;*&lt;/sup&gt;
+
+&gt; Burkina Faso - Admin Level 0 - 3 - Country &gt; Region &gt; Province &gt; Department
+
+.footnote[[*] [GADM](https://gadm.org/)]
+
+---
+background-image: url(img/12.png)
+background-size: cover
+# GIS | Limitations 
+GIS analysis across all scales- global, regional &amp; local face hurdles:
+
+--
+
+- **environmental phenomena**, typical represented by raster model, is only as 'precise' as the size (resolution) of the dataset grid cell (10m, 50m, 100m, 250m, 500m, 1km)
+
+--
+
+- **human populations**, typically represented by the vector model, face statistical bias, i.e. the 'MAUP' problem (modifiable areal unit problem)
+
+---
+background-image: url(img/13.png)
+background-size: cover
+# GIS | Advances
+###**Data Accessibility** for the humanitarian sector.
+&gt; **Example**:The Humanitarian Data Exchange&lt;sup&gt;*&lt;/sup&gt;
+
+&gt; 18K + Data Sources; 253 Locations; 1.4K + Sources
+
+.footnote[[*] [HDX](https://data.humdata.org/)]
+
+---
+background-image: url(img/14.png)
+background-size: cover
+# GIS | Advances
+###**Augmented Census Products** for the human populations.
+&gt; **Example**:The World Pop project&lt;sup&gt;*&lt;/sup&gt;
+
+&gt; Innovative harmonization of population distribution datasets + satellite-based methods
+
+.footnote[[*] [Worldpop](https://www.worldpop.org/)]
+
+---
+background-image: url(img/15.png)
+background-size: cover
+# GIS | Advances
+###**AI Assisted Mapping** - machine learning for spatial data creation.
+&gt; **Example**:Microsoft Building Footprints&lt;sup&gt;*&lt;/sup&gt;
+
+.footnote[[*] [Microsoft AI Mapping](https://www.microsoft.com/en-us/maps/building-footprints)]
+
+---
+background-image: url(img/16.png)
+background-size: cover
+# GIS | Advances
+###**VGI** - Volunteered Geographic Information for humanitarian sector.
+&gt; **Example**:The HOT Project: Humanitarian OSM Team&lt;sup&gt;*&lt;/sup&gt;
+
+.footnote[[*] [HOT](https://www.hotosm.org/)]
+---
+class: left ,top, inverse
+# GIS | Participatory GIS (PGIS)
+*PGIS is meant to bring the **academic practices** of GIS and mapping to the **local level** in order to promote knowledge production by local and non-governmental groups*&lt;sup&gt;*&lt;/sup&gt;
+
+.footnote[[*] [GIS: A Short Introduction](https://www.wiley.com/en-us/GIS%3A+A+Short+Introduction-p-9780631235330)]
+--
+
+- The method can operate as augmentation and/or solution to coarse spatial resolution and the MAUP problem by collecting/developing highly resolute temporal and spatial datasets.
+
+--
+
+- An example of Large Scale Mapping - well suited to immediate community concerns and acute environmental challenges.
+
+--
+
+- Community cohesion, development and confidence can be enhanced through PGIS mapping methods.
+
+---
+background-image: url(img/17.png)
+background-size: cover
+class: left ,top, inverse
+# GIS | Counter Mapping
+*Nancy Peluso, professor of forest policy, coined the term 'counter-mapping' in 1995, having examined the implementation of two forest mapping strategies in Kalimantan, Indonesia.*&lt;sup&gt;*&lt;/sup&gt;
+
+.footnote[[*] [Whose Woods are These?](https://www.academia.edu/34204986/Whose_Woods_are_These_Counter_Mapping_Forest_Territories_in_Kalimantan_Indonesia)]
+--
+
+- Advocacy tool for policy change in a bottom-up manner
+
+--
+
+- Mapmaking techniques designed to reduce the threats posed by governments and industry, particularly extractive industries.
+
+---
+class: left ,top, inverse
+# GIS | Presentation References
+
+- [80% of data is geographic](https://www.gislounge.com/80-percent-data-is-geographic/)
+- [World Economic Forum Risk Report 2021](https://www.zurich.com/-/media/project/zurich/dotcom/industry-knowledge/global-risks/docs/the-global-risks-report-2021-executive-summary.pdf?la=en&amp;rev=34fe8ff3edbb4b9fae6637801cc552d7&amp;hash=98B8DE1FA188A93A7241C160C7EA9EDC)
+- [Hothouse Earth - An Introduction](http://priceofoil.org/2018/08/07/are-we-descending-into-hothouse-earth/)
+- [UN SPIDER - Risks &amp; Disasters](https://www.un-spider.org/risks-and-disasters/disaster-risk-management)
+- [Socioeconomic Data and Applications Center (sedac)](https://sedac.ciesin.columbia.edu/data/set/ndh-drought-hazard-frequency-distribution/maps)
+- [427 Methods - Global Hazard Mapping](http://427mt.com/wp-content/uploads/2020/12/Measuring-What-Matters-Sovereign-Climate-Risk-427_12.2020.pdf)
+- [GADM - Global Administration Units Datasets](https://gadm.org/)
+- [HDX - Humanitarian Data Exchange](https://data.humdata.org/)
+- [Worldpop - Global Census Methods &amp; Data](https://www.worldpop.org/)
+- [Microsoft AI Mapping](https://www.microsoft.com/en-us/maps/building-footprints)
+- [HOT - Humanitarian OpenStreetMap Team](https://www.hotosm.org/)
+- [Whose Woods are These?](https://www.academia.edu/34204986/Whose_Woods_are_These_Counter_Mapping_Forest_Territories_in_Kalimantan_Indonesia)
+
+### Presenter Contact: Stephen Metts | &lt;mettss@newschool.edu&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
